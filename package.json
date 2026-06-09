@@ -1,0 +1,25 @@
+{
+  "name": "stonhub-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "@fastify/cors": "^10.0.1",
+    "@supabase/supabase-js": "^2.45.4",
+    "dotenv": "^16.4.5",
+    "fastify": "^5.1.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "@types/node": "^22.9.0",
+    "@types/ws": "^8.5.13"
+  },
+  "engines": { "node": ">=20" }
+}
